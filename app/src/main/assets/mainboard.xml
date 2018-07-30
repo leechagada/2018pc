@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [<!ELEMENT resources (prod_id|shop_id|prod_name|maker|image_url|min_price|avr_price|shop|shot|cate_c1|cate_c2|cate_c3|cate_c4|input_d|danawaUrl|prodType)*><!ELEMENT prod_id (#PCDATA)><!ELEMENT shop_id (#PCDATA)><!ELEMENT prod_name (#PCDATA)><!ELEMENT maker (#PCDATA)><!ELEMENT image_url (#PCDATA)><!ELEMENT min_price (#PCDATA)><!ELEMENT avr_price (#PCDATA)><!ELEMENT shop (#PCDATA)><!ELEMENT shot (#PCDATA)><!ELEMENT cate_c1 (#PCDATA)><!ELEMENT cate_c2 (#PCDATA)><!ELEMENT cate_c3 (#PCDATA)><!ELEMENT cate_c4 (#PCDATA)><!ELEMENT input_d (#PCDATA)><!ELEMENT danawaUrl (#PCDATA)><!ELEMENT prodType (#PCDATA)>]>
+
+<resources>
+        <prod_id>6034808</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name>B360M-K iBORA;</prod_name>
+        <maker>ASUS</maker>
+        <image_url>http://img.danawa.com/prod_img/500000/808/034/img/6034808_1.jpg?shrink=80:80</image_url>
+        <min_price>86900</min_price>
+        <avr_price>97979</avr_price>
+        <shop>146</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>968</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20180406</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4C912D935DF42E4FB27C983FEC09E4208C084F578AE970A8F168AAB3B8172697F7571165FF4ACE4BC184C99F7C48195950&amp;logger_kw=api_bridge_2471</danawaUrl>
+    <prodType>1</prodType>
+
+        <prod_id>6020606</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name> B360M PRO4;
+            에즈윈</prod_name>
+        <maker>ASRock</maker>
+        <image_url>
+            http://img.danawa.com/prod_img/500000/606/020/img/6020606_1.jpg?shrink=80:80
+        </image_url>
+        <min_price>98800</min_price>
+        <avr_price>114169</avr_price>
+        <shop>203</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>968</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20180403</input_d>
+        <danawaUrl>
+            http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4C96B5B439CB0190DDE3EF8D69BCCF6885084F578AE970A8F168AAB3B8172697F7781DDE9D0EA6C598DB39004E037D1C03&amp;logger_kw=api_bridge_2471
+        </danawaUrl>
+    <prodType>1</prodType>
+        <prod_id>5536872</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name>Z370-PLUS GAMING;iBORA</prod_name>
+        <maker>ASUS</maker>
+        <image_url>http://img.danawa.com/prod_img/500000/872/536/img/5536872_1.jpg?shrink=80:80</image_url>
+        <min_price>151900</min_price>
+        <avr_price>173978</avr_price>
+        <shop>149</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>968</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20171010</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4C95FE241503520F79415DC2B520DC4497084F578AE970A8F168AAB3B8172697F7F26AC3C2B3619B0E43CB9EB3AEE2093E&amp;logger_kw=api_bridge_2471</danawaUrl>
+        <prodType>1</prodType>
+
+        <prod_id>6013975</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name> B360M 박격포;</prod_name>
+        <maker>MSI</maker>
+        <image_url>
+            http://img.danawa.com/prod_img/500000/975/013/img/6013975_1.jpg?shrink=80:80
+        </image_url>
+        <min_price>110600</min_price>
+        <avr_price>126074</avr_price>
+        <shop>123</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>968</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20180330</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4C05CEB8347E9DBD5C8C99CF91ECDE5AAF084F578AE970A8F168AAB3B8172697F73866FA346416437D92B9D42013C334B8&amp;logger_kw=api_bridge_2471</danawaUrl>
+        <prodType>1</prodType>
+        <prod_id>4949488</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name>B350M-
+            A STCOM;</prod_name>
+        <maker>ASUS</maker>
+        <image_url>http://img.danawa.com/prod_img/500000/488/949/img/4949488_1.jpg?shrink=80:80</image_url>
+        <min_price>87500</min_price>
+        <avr_price>109704</avr_price>
+        <shop>146</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>969</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20170302</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4CACA35DBD9BA0DC73F13B7A50D3A93647084F578AE970A8F168AAB3B8172697F77F14C5F409DF6BAAF0F8F537C0F48F8E&amp;logger_kw=api_bridge_2471</danawaUrl>
+        <prodType>1</prodType>
+
+        <prod_id>6015737</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name> B360M DS3H; 듀러블에디션 피씨디렉트;</prod_name>
+        <maker>GIGABYTE</maker>
+        <image_url>http://img.danawa.com/prod_img/500000/737/015/img/6015737_1.jpg?shrink=80:80</image_url>
+        <min_price>89700</min_price>
+        <avr_price>113698</avr_price>
+        <shop>187</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>968</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20180330</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4C43DEE3EE29022FA1BDB44252157B5917084F578AE970A8F168AAB3B8172697F7205089F3A538993D458FF6818B916ACB&amp;logger_kw=api_bridge_2471</danawaUrl>
+        <prodType>1</prodType>
+
+        <prod_id>6112075</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name> B360M 바주카;
+            플러스</prod_name>
+        <maker>MSI</maker>
+        <image_url>http://img.danawa.com/prod_img/500000/075/112/img/6112075_1.jpg?shrink=80:80</image_url>
+        <min_price>98600</min_price>
+        <avr_price>113392</avr_price>
+        <shop>171</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>968</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20180503</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4CFAB4A3B9BDF7FB6DD93DA155271D7E2A084F578AE970A8F168AAB3B8172697F703537F3CF882ECAC7CACDCDB55C48916&amp;logger_kw=api_bridge_2471</danawaUrl>
+        <prodType>1</prodType>
+
+        <prod_id>4958904</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name>GA-AB350M-Gaming 3 게이밍에디션 제이씨현;</prod_name>
+        <maker>GIGABYTE</maker>
+        <image_url>http://img.danawa.com/prod_img/500000/904/958/img/4958904_1.jpg?shrink=80:80</image_url>
+        <min_price>84300</min_price>
+        <avr_price>102100</avr_price>
+        <shop>231</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>969</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20170306</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4CB19AC89A5445CFBF8D8BDA240BE82604084F578AE970A8F168AAB3B8172697F70C97FE11008A8938624A23313C793340&amp;logger_kw=api_bridge_2471</danawaUrl>
+        <prodType>1</prodType>
+
+        <prod_id >6017713</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name> B360M PRO4; 디앤디컴</prod_name>
+        <maker>ASRock</maker>
+        <image_url>http://img.danawa.com/prod_img/500000/713/017/img/6017713_1.jpg?shrink=80:80</image_url>
+        <min_price>98400</min_price>
+        <avr_price>116094</avr_price>
+        <shop>228</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>968</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20180402</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4C2CDC6802E7A4CC85067150C4F1EDA8CE084F578AE970A8F168AAB3B8172697F78145BEAF1B2756244DDF4F78EF33BBF8&amp;logger_kw=api_bridge_2471</danawaUrl>
+        <prodType>1</prodType>
+
+        <prod_id>5539318</prod_id>
+        <shop_id>dna</shop_id>
+        <prod_name>Z370- A STCOM;</prod_name>
+        <maker>ASUS</maker>
+        <image_url>http://img.danawa.com/prod_img/500000/318/539/img/5539318_1.jpg?shrink=80:80</image_url>
+        <min_price>209600</min_price>
+        <avr_price>246731</avr_price>
+        <shop>157</shop>
+        <shot>N</shot>
+        <cate_c1>861</cate_c1>
+        <cate_c2>875</cate_c2>
+        <cate_c3>968</cate_c3>
+        <cate_c4>0</cate_c4>
+        <input_d>20171010</input_d>
+        <danawaUrl>http://api.danawa.com/bridge/index.html?text=F9F3C2A7219FC63A945050301051B5E63B31A3D9F2B1F99E78845D0E21A8EC4C3F24955FF68F4EDC3E4028EC077F6F37084F578AE970A8F168AAB3B8172697F76CF8CCE688EDD0448CE2D2EF7E067806&amp;logger_kw=api_bridge_2471</danawaUrl>
+        <prodType>1</prodType>
+
+</resources>
