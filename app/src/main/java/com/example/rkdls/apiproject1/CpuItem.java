@@ -1,13 +1,13 @@
 package com.example.rkdls.apiproject1;
 
 public class CpuItem {
-    private String name;
+    private String cname;
     private String maker;
     private String minPrice;
     private String avrPrice;
 
     public String getName() {
-        return name;
+        return cname;
     }
 
     public String getMaker() {
