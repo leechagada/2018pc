@@ -3,8 +3,8 @@ package com.example.rkdls.apiproject1;
 public class CpuItem {
     private String name;
     private String maker;
-    private int minPrice;
-    private int avrPrice;
+    private String minPrice;
+    private String avrPrice;
 
     public String getName() {
         return name;
@@ -14,11 +14,11 @@ public class CpuItem {
         return maker;
     }
 
-    public int getMinPrice() {
+    public String getMinPrice() {
         return minPrice;
     }
 
-    public int getAvrPrice() {
+    public String getAvrPrice() {
         return avrPrice;
     }
 }
