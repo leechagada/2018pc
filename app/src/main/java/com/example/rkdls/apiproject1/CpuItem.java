@@ -1,24 +1,32 @@
 package com.example.rkdls.apiproject1;
 
 public class CpuItem {
-    private String cname;
+    // 변수 이름은 태그 이름과 똑같이 해야 함
+    private String prod_name;
     private String maker;
-    private String minPrice;
-    private String avrPrice;
+    private int min_price;
+    private int avr_price;
+
+    public CpuItem(String name, String maker, int minPrice, int avrPrice) {
+        this.prod_name = name;
+        this.maker = maker;
+        this.min_price = minPrice;
+        this.avr_price = avrPrice;
+    }
 
     public String getName() {
-        return cname;
+        return prod_name;
     }
 
     public String getMaker() {
         return maker;
     }
 
-    public String getMinPrice() {
-        return minPrice;
+    public int getMinPrice() {
+        return min_price;
     }
 
-    public String getAvrPrice() {
-        return avrPrice;
+    public int getAvrPrice() {
+        return avr_price;
     }
 }

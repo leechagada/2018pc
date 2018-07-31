@@ -5,8 +5,14 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.widget.TextView;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
@@ -14,20 +20,24 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
-    TextView result;
+
+    public static final String TAG = "MainActivity";
+    TextView cpu_result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        result = (TextView) findViewById(R.id.result);
+        cpu_result = (TextView) findViewById(R.id.cpu_result);
+//        result.setMovementMethod(new ScrollingMovementMethod()); // 스크롤 기능
 
         MyAsyncTask mProcessTask = new MyAsyncTask();
         mProcessTask.execute();
+
     }
 
-    public class MyAsyncTask extends AsyncTask<String, Void, String>{
+    public class MyAsyncTask extends AsyncTask<String, Void, CpuItem[]>{
         ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
 
         OkHttpClient client = new OkHttpClient();
@@ -41,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        protected String doInBackground(String... voids) {
-            HttpUrl.Builder urlBuilder = HttpUrl.parse("http://api.danawa.com/api/search/product/info?key=bc716b5130a42e5aa7b0534e25821e51&keyword=cpu&mediatype=xml&charset=utf8").newBuilder();
+        protected CpuItem[] doInBackground(String... voids) {
+            HttpUrl.Builder urlBuilder = HttpUrl.parse("http://api.danawa.com/api/search/product/info?key=bc716b5130a42e5aa7b0534e25821e51&keyword=cpu&mediatype=json&charset=utf8").newBuilder();
 //            urlBuilder.addQueryParameter()
 
             String url = urlBuilder.build().toString();
@@ -52,8 +62,14 @@ public class MainActivity extends AppCompatActivity {
             try{
                 Response response = client.newCall(request).execute();
 
+                Gson gson = new GsonBuilder().create();
+                JsonParser parser = new JsonParser();
 
-                return response.body().string();
+                JsonElement rootObject = parser.parse(response.body().charStream())
+                        .getAsJsonObject().get("productList");
+                CpuItem[] items = gson.fromJson(rootObject, CpuItem[].class);
+
+                return items;
             } catch (Exception e){
                 e.printStackTrace();
             }
@@ -62,13 +78,22 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        protected void onPostExecute(String aVoid) {
-            super.onPostExecute(aVoid);
+        protected void onPostExecute(CpuItem[] result) {
+            super.onPostExecute(result);
             progressDialog.dismiss();
-            Log.d("Result: ", aVoid.toString());
+            // 요청 결과 처리 ex. 화면 출력
+            if(result.length > 0){
+                for(CpuItem item: result){
+                    cpu_result.append("상품명: " + item.getName() + "\n");
+                    cpu_result.append("제조사: " + item.getMaker() + "\n");
+                    cpu_result.append("최저가: " + String.valueOf(item.getMinPrice()) + "원\n");
+                    cpu_result.append("평균가: " + String.valueOf(item.getAvrPrice()) + "원\n\n");
 
-            result.setText(aVoid.toString());
+                }
+            }
+//            Log.d("Result: ", aVoid.toString());
 
+//            result.setText(aVoid.toString());
         }
     }
 }
