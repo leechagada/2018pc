@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="scaleType">
+        <item name="android:layout_width">173dp</item>
+        <item name="android:layout_height">187dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <!--<style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">-->
+        <!--<item name="android:windowBackground">@drawable/splash2</item>-->
+    <!--</style>-->
+
 </resources>

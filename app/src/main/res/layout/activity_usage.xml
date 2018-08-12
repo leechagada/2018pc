@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsageActivity">
+
+    <TextView
+        android:id="@+id/txt_main"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="어떤 용도로                                     사용하실 건가요?"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/txt_document_ver"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center_vertical"
+        android:text="문서 작업용"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_main" />
+
+    <Button
+        android:id="@+id/txt_game_ver"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+        android:text="게임용"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_document_ver" />
+
+    <Button
+        android:id="@+id/txt_graphic_ver"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+        android:text="그래픽 작업용"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_game_ver" />
+
+    <Button
+        android:id="@+id/txt_programming_ver"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+        android:text="프로그래밍용"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_graphic_ver" />
+</android.support.constraint.ConstraintLayout>
