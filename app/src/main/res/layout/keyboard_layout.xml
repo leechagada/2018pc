@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".Keyboard">
 
     <TextView
         android:id="@+id/text_keyboard"
@@ -24,7 +24,6 @@
         android:id="@+id/text_keyboard_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="11dp"
         android:text="가격"
@@ -37,7 +36,6 @@
         android:layout_width="271dp"
         android:layout_height="43dp"
         android:layout_marginBottom="415dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +46,6 @@
         android:id="@+id/text_keyboard_maker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="18dp"
         android:text="제조사"
@@ -60,7 +57,6 @@
         android:id="@+id/checkBox_keyboard1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
         android:layout_marginStart="27dp"
         android:layout_marginTop="29dp"
         android:text="모두"
@@ -81,7 +77,6 @@
         android:id="@+id/checkBox_keyboard3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
         android:layout_marginStart="27dp"
         android:layout_marginTop="26dp"
         android:text="ABKO"
@@ -101,7 +96,6 @@
         android:id="@+id/checkBox10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
         android:layout_marginStart="27dp"
         android:layout_marginTop="23dp"
         android:text="기타"
@@ -109,14 +103,13 @@
         app:layout_constraintTop_toBottomOf="@+id/checkBox_keyboard3" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginStart="64dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/checkBox9"
-        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="96dp"
+        android:src="?android:attr/actionModeWebSearchDrawable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox10" />
 
 </android.support.constraint.ConstraintLayout>
