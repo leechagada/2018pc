@@ -47,5 +47,16 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton btnDesktop = findViewById(R.id.imgbtn_desktop);
+
+        btnDesktop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Desktop.class);
+
+                startActivity(intent);
+            }
+        });
     }
 }

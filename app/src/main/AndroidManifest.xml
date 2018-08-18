@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Keyboard" />
         <activity android:name=".Mouse" />
-        <activity android:name=".Monitor"></activity>
+        <activity android:name=".Monitor" />
+        <activity android:name=".Desktop"></activity>
     </application>
 
 </manifest>
