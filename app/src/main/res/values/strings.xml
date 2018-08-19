@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ApiProject1</string>
+    <string-array name="productName">
+        <item>삼성</item>
+        <item>엘지</item>
+        <item>apple</item>
+    </string-array>
 </resources>

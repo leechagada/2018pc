@@ -25,15 +25,14 @@
         <!-- </intent-filter> -->
         <!-- </activity> -->
 
-        <activity android:name=".SplashActivity">
+        <activity android:name=".main.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" /> <!-- 안드로이드 os에서 로딩 -->
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MainActivity">
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" /> <!-- 안드로이드 os에서 로딩 -->
 
@@ -41,8 +40,14 @@
             </intent-filter>
         </activity> <!-- activity 추가할 때마다 manifest에 등록해주기 -->
 
-        <activity android:name=".MonitorItemActivity" />
-        <activity android:name=".UsageActivity"></activity>
+        <activity android:name=".recommendlist.MonitorItemActivity"
+            android:exported="true"/>
+        <activity android:name=".main.UsageActivity" />
+        <activity android:name=".RecommendListActivity" />
+        <activity android:name=".recommendlist.CpuItemActivity" />
+        <activity android:name=".checklist.MonitorCheckActivity"
+            android:exported="true"/>
+        <activity android:name=".checklist.DesktopCheckActivity"></activity>
     </application>
 
 </manifest>

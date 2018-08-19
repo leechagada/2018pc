@@ -1,10 +1,12 @@
-package com.example.rkdls.apiproject1;
+package com.example.rkdls.apiproject1.main;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.rkdls.apiproject1.R;
 
 public class SplashActivity extends AppCompatActivity{
 

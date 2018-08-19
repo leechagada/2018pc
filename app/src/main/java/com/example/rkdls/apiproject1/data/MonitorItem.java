@@ -1,12 +1,12 @@
-package com.example.rkdls.apiproject1;
+package com.example.rkdls.apiproject1.data;
 
 public class MonitorItem {
     private String maker;
-    private int minPrice;
+    private int min_price;
 
     public MonitorItem(String maker, int minPrice) {
         this.maker = maker;
-        this.minPrice = minPrice;
+        this.min_price = minPrice;
     }
 
     public String getMaker() {
@@ -14,6 +14,6 @@ public class MonitorItem {
     }
 
     public int getMinPrice() {
-        return minPrice;
+        return min_price;
     }
 }

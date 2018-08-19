@@ -1,10 +1,13 @@
-package com.example.rkdls.apiproject1;
+package com.example.rkdls.apiproject1.main;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
+
+import com.example.rkdls.apiproject1.checklist.MonitorCheckActivity;
+import com.example.rkdls.apiproject1.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btn_monitor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), UsageActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MonitorCheckActivity.class);
                 startActivity(intent);
             }
         });
